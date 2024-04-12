@@ -6,7 +6,7 @@ function Testimonio() {
     <div className='contenedor-testimonio'>
       <img 
         className='imagen-testimonio'
-        src={require('..\Imagenes\testimonio-emma.png')}
+        src={require('../imagenes/testimonio-emma.png')}
         alt='Foto de Emma' />
       <div className='contenedor-texto-textimonio'>
        <p className='nombre-testimonio'>Emma Bostian en Suecia</p>  
@@ -15,4 +15,7 @@ function Testimonio() {
       </div>  
     </div>
   );
-} 
+}
+
+
+export default Testimonio;

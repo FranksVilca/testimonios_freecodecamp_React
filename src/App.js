@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import Testimonio from './Componentes'
+import Testimonio from './Componentes/Testimonio';
 function App() {
   return (
     <div className="App">
